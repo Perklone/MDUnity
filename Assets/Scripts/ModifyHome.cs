@@ -11,15 +11,18 @@ public class ModifyHome : MonoBehaviour
 
     public Renderer _houseRenderer;
     private Material[] houseMaterial;
+    public Material altMaterial;
     // public GameObject House;
     void Start()
     {
         // _houseRenderer = House.GetComponent<Renderer>();
         houseMaterial = _houseRenderer.materials;
+        Debug.Log($"{houseMaterial[0]}, {houseMaterial[1]}");
         Color32 currentColor = houseMaterial[1].GetColor("_Color");
-        redSlider.value = currentColor.r;
-        greenSlider.value = currentColor.g;
-        blueSlider.value = currentColor.b;
+        Debug.Log($"{currentColor.r}, {currentColor.g}, {currentColor.b}");
+        redSlider.value = (float)currentColor.r/255;
+        greenSlider.value = (float)currentColor.g/255;
+        blueSlider.value = (float)currentColor.b/255;
     }
 
     // Update is called once per frame
@@ -30,17 +33,30 @@ public class ModifyHome : MonoBehaviour
 
     public void OnRedValueChange(float color)
     {
+        Debug.Log("Red Clicked");
         Color newColor = new Color(color, greenSlider.value, blueSlider.value);
         _houseRenderer.materials[1].SetColor("_Color",newColor);   
     }
     public void OnGreenValueChange(float color)
     {
+        Debug.Log("Green Clicked");
         Color newColor = new Color(redSlider.value, color, blueSlider.value);
         _houseRenderer.materials[1].SetColor("_Color",newColor);   
     } 
     public void OnBlueValueChange(float color)
     {
+        Debug.Log("Blue Clicked");
         Color newColor = new Color(redSlider.value, greenSlider.value, color);
         _houseRenderer.materials[1].SetColor("_Color",newColor);   
-    }  
+    }
+
+    public void OnButtonClicked()
+    {
+        Material[] x = _houseRenderer.materials;
+        Color newColor = new Color(redSlider.value, greenSlider.value, blueSlider.value);
+        altMaterial.SetColor("_Color",newColor);
+        x[1] = altMaterial;
+        Debug.Log("OnButtonClicked Activated");
+        _houseRenderer.materials = x;
+    }
 }

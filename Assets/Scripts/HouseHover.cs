@@ -23,13 +23,19 @@ public class HouseHover : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Test");
+            Debug.Log("Enter");
             popupSetting.SetActive(true);
         }
     }
 
+    // private void OnControllerColliderHit(ControllerColliderHit hit)
+    // {
+    //     popupSetting.SetActive(true); 
+    // }
+
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("Exit");
         popupSetting.SetActive(false);
     }
 }
