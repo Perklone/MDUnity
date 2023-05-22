@@ -583,8 +583,11 @@ MonoBehaviour:
   redSlider: {fileID: 7873066343054942761}
   greenSlider: {fileID: 2606001392868905967}
   blueSlider: {fileID: 6283670893773148384}
+  indexText: {fileID: 3592310377907693027}
   _houseRenderer: {fileID: 0}
-  altMaterial: {fileID: 0}
+  altMaterial:
+  - {fileID: 0}
+  materialIndex: 0
 --- !u!1 &2243133976658906259
 GameObject:
   m_ObjectHideFlags: 0
