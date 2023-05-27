@@ -28,11 +28,6 @@ public class HouseHover : MonoBehaviour
         }
     }
 
-    // private void OnControllerColliderHit(ControllerColliderHit hit)
-    // {
-    //     popupSetting.SetActive(true); 
-    // }
-
     private void OnTriggerExit(Collider other)
     {
         Debug.Log("Exit");
