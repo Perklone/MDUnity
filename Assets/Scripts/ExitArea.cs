@@ -19,11 +19,9 @@ public class ExitArea : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void SwitchSceneButtonPressed()
     {
-        if (other.CompareTag("Player"))
-        {
-            SceneManager.LoadScene(targetScene);
-        }
+        Debug.Log("SwitchScene Function Called");
+        SceneManager.LoadScene(targetScene);
     }
 }
