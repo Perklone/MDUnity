@@ -1060,6 +1060,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &349892049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 47.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000014305115
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000004371139
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452399970137559426, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 940390084463692600, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_Name
+      value: Rumah Mural Batik Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044487505808950203, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
 --- !u!4 &354863552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 304707034216862685, guid: aa6e40b8fa6dc4fab95f0336b58bad91, type: 3}
@@ -2816,7 +2877,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1433390417824925428, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1433390417824925428, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3115,60 +3176,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 304707034216862685, guid: aa6e40b8fa6dc4fab95f0336b58bad91, type: 3}
   m_PrefabInstance: {fileID: 1195642489}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1654136826915398347
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 47.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 85.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7657219559124679204, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
-      propertyPath: m_Name
-      value: Rumah Mural Batik
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
