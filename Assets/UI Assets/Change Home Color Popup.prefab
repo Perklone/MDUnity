@@ -319,7 +319,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3938883021904323730}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ModifyHome, Assembly-CSharp
         m_MethodName: OnBlueValueChange
         m_Mode: 0
@@ -478,7 +478,6 @@ GameObject:
   - component: {fileID: 7955433999143163050}
   - component: {fileID: 6779642716447530508}
   - component: {fileID: 4346481420947457526}
-  - component: {fileID: 3938883021904323730}
   m_Layer: 5
   m_Name: Change Home Color Popup
   m_TagString: Untagged
@@ -550,7 +549,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &4346481420947457526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,26 +567,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &3938883021904323730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969338517840074683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e91b68f46c10a4acab76915bcd33c3d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  redSlider: {fileID: 7873066343054942761}
-  greenSlider: {fileID: 2606001392868905967}
-  blueSlider: {fileID: 6283670893773148384}
-  indexText: {fileID: 3592310377907693027}
-  _houseRenderer: {fileID: 0}
-  altMaterial:
-  - {fileID: 0}
-  materialIndex: 0
 --- !u!1 &2243133976658906259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1163,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3938883021904323730}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ModifyHome, Assembly-CSharp
         m_MethodName: OnGreenValueChange
         m_Mode: 0
@@ -1944,7 +1923,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3938883021904323730}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ModifyHome, Assembly-CSharp
         m_MethodName: OnRedValueChange
         m_Mode: 0
