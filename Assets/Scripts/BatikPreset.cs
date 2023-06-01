@@ -25,7 +25,7 @@ public class BatikPreset : MonoBehaviour, IPresetMenu
 
     public void LeftButtonClicked()
     {
-        Material[] tempMaterials = _houseRenderer.materials;
+        Material[] tempMaterials = houseMaterial;
         if (presetIndex == 0)
         {
             presetIndex = altMaterial.Length-1;
@@ -42,7 +42,7 @@ public class BatikPreset : MonoBehaviour, IPresetMenu
 
     public void RightButtonClicked()
     {
-        Material[] tempMaterials = _houseRenderer.materials;
+        Material[] tempMaterials = houseMaterial;
         if (presetIndex == altMaterial.Length-1)
         {
             presetIndex = 0;
