@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 2
     smallestHole: 0.2
     backfaceThreshold: 100
-  m_SceneGUID: e9175b016f405433cbee97921f83ec0e
-  m_OcclusionCullingData: {fileID: 36300000, guid: 71bb6a9f5ee3f49a3bc1e46b4d86261b, type: 2}
+  m_SceneGUID: 09370861911c949d59bf0495dcf3beca
+  m_OcclusionCullingData: {fileID: 36300000, guid: a2f127ba6df114204934ddea1ac85bbf, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -561,7 +561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202578883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.93, y: 1.26, z: 80.66}
+  m_LocalPosition: {x: 45.93, y: 1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3079,7 +3079,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1787096692}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: bd96ccde1470e42848b682325c6e1ac2, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 9a38d99de45f8486ab99faca15f8425e, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1787096694
 Terrain:
@@ -3090,7 +3090,7 @@ Terrain:
   m_GameObject: {fileID: 1787096692}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: bd96ccde1470e42848b682325c6e1ac2, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 9a38d99de45f8486ab99faca15f8425e, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5

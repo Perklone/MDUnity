@@ -113,6 +113,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 951134222619470532, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936571191838376025, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697623486957565065, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324838398386728499, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3847172195773895824, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_Name
       value: Rumah Urban Tropical Modifiable
@@ -160,6 +176,14 @@ PrefabInstance:
     - target: {fileID: 4478889297745579562, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582634587462406337, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333886484618548013, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}

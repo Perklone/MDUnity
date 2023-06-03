@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class MainMenu : MonoBehaviour
 {
     
     // Start is called before the first frame update
+    public String sceneTarget;
     void Start()
     {
         
@@ -21,6 +23,6 @@ public class MainMenu : MonoBehaviour
 
     public void OnStartButtonPressed()
     {
-        SceneManager.LoadScene("Scene 1");
+        SceneManager.LoadScene(sceneTarget);
     }
 }
