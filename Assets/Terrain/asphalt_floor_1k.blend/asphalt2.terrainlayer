@@ -7,12 +7,12 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: asphalt2
-  m_DiffuseTexture: {fileID: 0}
-  m_NormalMapTexture: {fileID: 0}
+  m_DiffuseTexture: {fileID: 2800000, guid: 704c1474216b84891855c21ca610f63d, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: c22ce8df3477142e990e4ed060b1ee41, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 2, y: 2}
   m_TileOffset: {x: 0, y: 0}
-  m_Specular: {r: 0, g: 0, b: 0, a: 0}
+  m_Specular: {r: 0.9811321, g: 0.29087895, b: 0.03147021, a: 0}
   m_Metallic: 0
   m_Smoothness: 0
   m_NormalScale: 1
