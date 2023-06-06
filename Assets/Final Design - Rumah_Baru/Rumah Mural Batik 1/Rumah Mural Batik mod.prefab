@@ -184,6 +184,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexText: {fileID: 3815649108072528867}
   _houseRenderer: {fileID: 4164615001843789959}
+  _leftWallRenderer: {fileID: 5894145697394357699}
+  _rightWallRenderer: {fileID: 6375229928127132638}
   altMaterial:
   - {fileID: 2100000, guid: 29c17093e7f2f754183cb99e79e83c08, type: 2}
   - {fileID: 2100000, guid: 93bcd999f597f194cbe0252e626b32c4, type: 2}
@@ -230,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5214540062034466256, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.05
+      value: -1.84
       objectReference: {fileID: 0}
     - target: {fileID: 6991900209269498014, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
       propertyPath: m_RootOrder
@@ -285,6 +287,16 @@ PrefabInstance:
 --- !u!23 &4164615001843789959 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3526134091262790981, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
+  m_PrefabInstance: {fileID: 658923030901456322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5894145697394357699 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6406582993047128065, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
+  m_PrefabInstance: {fileID: 658923030901456322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6375229928127132638 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5863030130238066204, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
   m_PrefabInstance: {fileID: 658923030901456322}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &7162728504075274214 stripped
