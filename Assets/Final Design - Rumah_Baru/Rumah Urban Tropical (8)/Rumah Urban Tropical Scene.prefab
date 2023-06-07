@@ -53,6 +53,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 951134222619470532, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936571191838376025, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3847172195773895824, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_Name
       value: Rumah Urban Tropical Scene
@@ -100,6 +108,34 @@ PrefabInstance:
     - target: {fileID: 4478889297745579562, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018732257845743460, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021999073819929651, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_Radius
+      value: 4.4489536
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021999073819929651, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_Center.z
+      value: 0.44163895
+      objectReference: {fileID: 0}
+    - target: {fileID: 6067879343970577545, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6067879343970577545, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582634587462406337, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7333886484618548013, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
