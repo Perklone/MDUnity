@@ -7,7 +7,7 @@ public class IndustrialPreset : MonoBehaviour, IPresetMenu
 {
     public TMP_Text indexText;
     public Renderer carportRenderer;
-    public Renderer rosterRenderer;
+    public Renderer[] rosterRenderer;
     public Material[] carportMaterial;
     public Material[] rosterMaterial;
     public Texture2D carportTexture;
@@ -20,8 +20,8 @@ public class IndustrialPreset : MonoBehaviour, IPresetMenu
     {
         //0 is Carport, 1 is Roster
         carportOldMaterial = carportRenderer.materials;
-        rosterOldMaterial = rosterRenderer.materials;
-        Debug.Log($"{carportOldMaterial[0]}, {carportOldMaterial[1]}, {carportOldMaterial[2]}");
+        rosterOldMaterial = rosterRenderer[0].materials;
+        Debug.Log($"{rosterOldMaterial[0]}");
     }
 
     // Update is called once per frame
@@ -48,7 +48,9 @@ public class IndustrialPreset : MonoBehaviour, IPresetMenu
         tempCarportMaterials[0] = carportMaterial[presetIndex];
         tempRosterMaterials[0] = rosterMaterial[presetIndex];
         carportRenderer.materials = tempCarportMaterials;
-        rosterRenderer.materials = tempRosterMaterials;
+        for(int i = 0; i < rosterRenderer.Length; i++) {
+            rosterRenderer[i].materials = tempRosterMaterials;
+        }
         UpdateIndexLabel();
     }
 
@@ -68,7 +70,10 @@ public class IndustrialPreset : MonoBehaviour, IPresetMenu
         tempCarportMaterials[0] = carportMaterial[presetIndex];
         tempRosterMaterials[0] = rosterMaterial[presetIndex];
         carportRenderer.materials = tempCarportMaterials;
-        rosterRenderer.materials = tempRosterMaterials;
+        for(int i = 0; i < rosterRenderer.Length; i++) {
+            rosterRenderer[i].materials = tempRosterMaterials;
+        }
+        
         UpdateIndexLabel();
     }
 
