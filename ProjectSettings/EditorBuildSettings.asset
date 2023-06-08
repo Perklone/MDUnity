@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 2.unity
     guid: f7bddfff9d7ee4263821db1eba7d00da
   - enabled: 1
-    path: Assets/Scenes/Scene 1.unity
-    guid: e9175b016f405433cbee97921f83ec0e
-  - enabled: 1
     path: Assets/Scenes/Scene 4.unity
     guid: 09370861911c949d59bf0495dcf3beca
   - enabled: 1
@@ -20,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 6.unity
     guid: 8ceaedc3d1c7d7e4f8e01677e5ca39ba
+  - enabled: 1
+    path: Assets/Scenes/Scene 7.unity
+    guid: 9157a6653392f9248abbfa0d88d704f2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 44d8da5e092bc499583a5d69cc5dd56d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 43a4d5594abdc44188687adb62ee8969, type: 2}

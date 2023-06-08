@@ -117,7 +117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -125,7 +125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -145,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -246,7 +246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3847172195773895824, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_Name
-      value: Rumah Urban Tropical Modifiable
+      value: Rumah Urban Tropical Modifiable Flip
       objectReference: {fileID: 0}
     - target: {fileID: 4478889297745579562, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_RootOrder

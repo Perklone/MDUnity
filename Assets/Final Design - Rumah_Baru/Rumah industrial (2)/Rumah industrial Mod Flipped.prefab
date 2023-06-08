@@ -113,11 +113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.181
+      value: 0.248
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -125,7 +125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -145,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3309135641454585537, guid: 4134febdecf254bcda9de0e89539f84c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -409,7 +409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4878906902965788356, guid: 289ebcf16e1c44e789ed075f6863caca, type: 3}
       propertyPath: m_Name
-      value: Rumah industrial Mod
+      value: Rumah industrial Mod Flipped
       objectReference: {fileID: 0}
     - target: {fileID: 5110019536369372786, guid: 289ebcf16e1c44e789ed075f6863caca, type: 3}
       propertyPath: m_IsActive
