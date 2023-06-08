@@ -17,7 +17,12 @@ public class LookAtTarget : MonoBehaviour
 
     private void Update()
     {
-        StartRotating();
+                Target = FindObjectOfType<Player>().transform;
+
+        Vector3 targetDirection = Target.position - transform.position;
+        targetDirection.y = 0.0f;
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(targetDirection), Time.time * Speed);
+        // StartRotating();
     }
 
     public void StartRotating()
@@ -32,6 +37,7 @@ public class LookAtTarget : MonoBehaviour
 
     private IEnumerator LookAt()
     {
+        Target = FindObjectOfType<Player>().transform;
         Quaternion lookRotation = Quaternion.LookRotation(Target.position - transform.position);
         lookRotation = Quaternion.Euler(transform.rotation.eulerAngles.x, lookRotation.eulerAngles.y,
             transform.rotation.eulerAngles.z);
