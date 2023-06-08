@@ -187,8 +187,8 @@ MonoBehaviour:
   _leftWallRenderer: {fileID: 5894145697394357699}
   _rightWallRenderer: {fileID: 6375229928127132638}
   altMaterial:
-  - {fileID: 2100000, guid: 29c17093e7f2f754183cb99e79e83c08, type: 2}
   - {fileID: 2100000, guid: 93bcd999f597f194cbe0252e626b32c4, type: 2}
+  - {fileID: 2100000, guid: 29c17093e7f2f754183cb99e79e83c08, type: 2}
   - {fileID: 2100000, guid: 379c114f51c4b2343a3c37b5f244b03f, type: 2}
   - {fileID: 2100000, guid: d69814ebbcc26b24081661e6377a73ce, type: 2}
   presetIndex: 0
@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5214540062034466256, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5214540062034466256, guid: ea1bbcd1fdbc82e4489e405269b545ad, type: 3}
       propertyPath: m_LocalPosition.x
