@@ -1907,6 +1907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 2870824688758410220, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2870824688758410257, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
       propertyPath: m_RootOrder
       value: 1
