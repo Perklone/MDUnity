@@ -401,7 +401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &202578884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffd901c3a65c4bceb8b62d7729901a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeaderText: {fileID: 0}
   targetScene: Scene 1
 --- !u!65 &298056383
 BoxCollider:
@@ -784,6 +785,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &346256973 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6605960293922462250, guid: 6382ccb1c00e9244684c8890834e8b34, type: 3}
+  m_PrefabInstance: {fileID: 1495810557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &369462097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1711,6 +1723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin
       objectReference: {fileID: 0}
+    - target: {fileID: 2870824688758410220, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2870824688758410257, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2268,6 +2284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit Game Button
       objectReference: {fileID: 0}
+    - target: {fileID: 6521355674605862931, guid: 6382ccb1c00e9244684c8890834e8b34, type: 3}
+      propertyPath: HeaderText
+      value: 
+      objectReference: {fileID: 346256973}
     - target: {fileID: 8530736154133282354, guid: 6382ccb1c00e9244684c8890834e8b34, type: 3}
       propertyPath: m_LocalPosition.z
       value: 802

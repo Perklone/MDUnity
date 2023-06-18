@@ -300,6 +300,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 65.652, y: -90, z: -90}
+--- !u!1 &68818162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1778847434120043598, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
+  m_PrefabInstance: {fileID: 1706640508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &68818166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68818162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0005d70270f6c43a186283abb3d89b1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupSetting: {fileID: 279082283}
 --- !u!1001 &84337054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -488,7 +506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &202578884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,6 +896,11 @@ Transform:
   m_Father: {fileID: 96970482}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &279082283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4418554859931245152, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+  m_PrefabInstance: {fileID: 349892049}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &282765853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1031,6 +1054,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffd901c3a65c4bceb8b62d7729901a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HeaderText: {fileID: 0}
   targetScene: Scene 1
 --- !u!65 &298056383
 BoxCollider:
@@ -1119,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rumah Mural Batik Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 3902031218500871559, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6044487505808950203, guid: 35c205e29d71a4705bdd28daa2fa4179, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.01
@@ -1163,6 +1191,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &461740938 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6605960293922462250, guid: 6382ccb1c00e9244684c8890834e8b34, type: 3}
+  m_PrefabInstance: {fileID: 4047825375430022312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &499236529
 GameObject:
   m_ObjectHideFlags: 0
@@ -2966,7 +3005,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rumah Urban Tropical Scene
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6554668101089504957, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342506682873110848, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
+      propertyPath: HeaderText
+      value: 
+      objectReference: {fileID: 1753169387}
+    m_RemovedComponents:
+    - {fileID: 7342506682873110848, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
 --- !u!1001 &1707565690
 PrefabInstance:
@@ -3029,6 +3077,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa6e40b8fa6dc4fab95f0336b58bad91, type: 3}
+--- !u!114 &1753169387 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1936808580833779740, guid: 918aea695d0e34728a2522c90eaa9328, type: 3}
+  m_PrefabInstance: {fileID: 1706640508}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1753580068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3278,7 +3337,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2870824688758410220, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2870824688758410220, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2870824688758410257, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
       propertyPath: m_RootOrder
@@ -3294,7 +3357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2870824688758410257, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.6
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 2870824688758410257, guid: 4331212c1957e624894c9e02b50d9f39, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3437,6 +3500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit Game Button
       objectReference: {fileID: 0}
+    - target: {fileID: 6521355674605862931, guid: 6382ccb1c00e9244684c8890834e8b34, type: 3}
+      propertyPath: HeaderText
+      value: 
+      objectReference: {fileID: 461740938}
     - target: {fileID: 8530736154133282354, guid: 6382ccb1c00e9244684c8890834e8b34, type: 3}
       propertyPath: m_LocalPosition.z
       value: 514

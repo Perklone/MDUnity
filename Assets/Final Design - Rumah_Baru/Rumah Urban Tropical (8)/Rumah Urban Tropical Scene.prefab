@@ -13,15 +13,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936571191838376025, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2739554771489503348, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3847172195773895824, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_Name
       value: Rumah Urban Tropical Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3847172195773895824, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
+      propertyPath: m_TagString
+      value: UrbanTropical
       objectReference: {fileID: 0}
     - target: {fileID: 4478889297745579562, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_RootOrder
@@ -69,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6018732257845743460, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6021999073819929651, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
       propertyPath: m_Radius
@@ -102,24 +106,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4478889297745579562, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
   m_PrefabInstance: {fileID: 3300112594912397534}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1778847434120043598 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3847172195773895824, guid: 1d2020a964f1c4bb79e0ebad7d7d0ec0, type: 3}
-  m_PrefabInstance: {fileID: 3300112594912397534}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7066100777422006449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778847434120043598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0005d70270f6c43a186283abb3d89b1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupSetting: {fileID: 3987425525062275081}
 --- !u!1001 &5706708729767689882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -184,6 +170,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4794996155194995454, guid: 000b4ed2700734a899c3553709c8deb4, type: 3}
+      propertyPath: HeaderText
+      value: 
+      objectReference: {fileID: 1936808580833779740}
+    - target: {fileID: 4794996155194995454, guid: 000b4ed2700734a899c3553709c8deb4, type: 3}
       propertyPath: targetScene
       value: Scene 6
       objectReference: {fileID: 0}
@@ -191,10 +181,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Select House Popup
       objectReference: {fileID: 0}
+    - target: {fileID: 8675167879622422163, guid: 000b4ed2700734a899c3553709c8deb4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 000b4ed2700734a899c3553709c8deb4, type: 3}
---- !u!1 &3987425525062275081 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8675167879622422163, guid: 000b4ed2700734a899c3553709c8deb4, type: 3}
+--- !u!114 &1936808580833779740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6184181702180134534, guid: 000b4ed2700734a899c3553709c8deb4, type: 3}
   m_PrefabInstance: {fileID: 5706708729767689882}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
