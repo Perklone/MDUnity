@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ExitButton : MonoBehaviour
+public class JumpScene : MonoBehaviour
 {
     // Start is called before the first frame update
     public TMP_Text HeaderText;
@@ -40,7 +40,7 @@ public class ExitButton : MonoBehaviour
         
     }
 
-    public void ExitButtonPressed()
+    public void JumpButtonPressed()
     {
         Debug.Log("SwitchScene Function Called");
         SceneManager.LoadScene(targetScene);
